@@ -121,6 +121,11 @@ span {
 
 /* #region ----------SECTION 2---*/
 
+.section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .strategy-class {
   font-weight: 500;
   font-size: 20px;
