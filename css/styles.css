@@ -146,7 +146,12 @@ span {
 }
 
 .menu-item {
-  width: 264;
+  flex-basis: calc((100% - 3 * 24px) / 4); /* Для всіх пунктів списку */
+  text-align: center; /* Центрування контенту */
+}
+
+.first-item {
+  width: calc((100% - 72px) / 4); /* Специфічна ширина для першого елемента */
 }
 
 .strategy-class {
