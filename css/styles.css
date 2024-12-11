@@ -32,6 +32,7 @@ img {
 }
 
 .ulik-ul {
+  list-style-type: none;
   display: flex;
   gap: 40px;
 }
@@ -152,12 +153,13 @@ span {
 }
 
 .company__list {
+  list-style-type: none;
   display: flex;
   gap: 24px;
 }
 
 .company__item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .company__title {
@@ -196,6 +198,7 @@ span {
 }
 
 .team-list {
+  list-style-type: none;
   display: flex;
   gap: 24px;
 }
@@ -249,6 +252,7 @@ span {
 }
 
 .ulik-four {
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
