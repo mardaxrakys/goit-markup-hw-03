@@ -4,6 +4,12 @@ body {
   background-color: #ffffff;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* #region ----------HEDER-------*/
 .header-alt {
   border-bottom: 1px solid #e7e9fc;
@@ -128,52 +134,33 @@ span {
 
 /* #region ----------SECTION 2---*/
 
-.section-two {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.company {
+  padding: 120px 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.menu-list {
+.company__list {
   display: flex;
-  justify-content: space-around;
   gap: 24px;
 }
 
-.menu-item {
-  flex-basis: calc((100% - 3 * 24px) / 4); /* Для всіх пунктів списку */
-  text-align: center; /* Центрування контенту */
+.company__item {
+  width: 264px;
 }
 
-.menu-item {
-  width: calc((100% - 72px) / 4); /* Специфічна ширина для першого елемента */
-}
-
-.strategy-class {
+.company__title {
+  color: var(--color-navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-
   margin-bottom: 8px;
 }
 
-.parag {
+.company__text {
+  color: var(--color-slate);
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 /* #endregion */
 
