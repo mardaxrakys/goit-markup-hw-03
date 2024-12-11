@@ -126,16 +126,28 @@ span {
   padding-bottom: 120px;
 }
 
-.one-ring {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
-.ulik-ul-two {
+.menu-list {
   display: flex;
   gap: 24px;
 }
 
-.linki-one {
+.menu-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.first-item {
   width: calc((100% - 72px) / 4);
 }
 
