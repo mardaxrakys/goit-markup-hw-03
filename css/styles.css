@@ -5,6 +5,26 @@ body {
 }
 
 /* #region ----------HEDER-------*/
+.header-alt {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-hed {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navigation-hed{
+  display: flex;
+  align-items: center;
+  
+}
 /* LOGO */
 .header-logo {
   font-family: 'Raleway', sans-serif;
