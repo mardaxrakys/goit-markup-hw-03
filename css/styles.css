@@ -20,11 +20,16 @@ body {
   padding-right: 15px;
 }
 
-.navigation-hed{
+.navigation-hed {
   display: flex;
   align-items: center;
-  
 }
+
+.ulik-ul {
+  display: flex;
+  gap: 40px;
+}
+
 /* LOGO */
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -34,6 +39,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+
+  margin-right: 76px;
 }
 
 span {
@@ -45,6 +52,9 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .li-nav:hover,
@@ -54,6 +64,8 @@ span {
 /* ADDRESS */
 .address-style {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .add-st {
