@@ -133,6 +133,9 @@ span {
 .ulik-ul-two {
   display: flex;
   gap: 24px;
+}
+
+.linki-one {
   width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
 }
