@@ -150,7 +150,7 @@ span {
   text-align: center; /* Центрування контенту */
 }
 
-.first-item {
+.menu-item {
   width: calc((100% - 72px) / 4); /* Специфічна ширина для першого елемента */
 }
 
