@@ -173,6 +173,8 @@ span {
 /* #region ----------SECTION 3---*/
 .our-team-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-title {
