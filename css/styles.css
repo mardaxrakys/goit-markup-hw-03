@@ -146,8 +146,7 @@ span {
 }
 
 .menu-item {
-  width: calc((100% - 72px) / 4);
-  
+  width: 264;
 }
 
 .strategy-class {
