@@ -230,6 +230,12 @@ span {
 /* #endregion */
 
 /* #region ----------SECTION 4---*/
+
+.our-portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .our-portfolio {
   font-size: 36px;
   line-height: 1.11;
@@ -238,6 +244,25 @@ span {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+
+  margin-bottom: 72px;
+}
+
+.ulik-four {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.li-four {
+  width: calc((100% - 48px) / 3);
+}
+
+.div-four {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .contenty-men {
@@ -246,6 +271,8 @@ span {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+
+  margin-bottom: 8px
 }
 
 .text-contenty {
