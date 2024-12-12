@@ -203,6 +203,8 @@ span {
   list-style-type: none;
   display: flex;
   gap: 24px;
+  padding-left: 0;
+  margin: 0;
 }
 .team-member {
   background-color: #ffffff;
@@ -259,6 +261,8 @@ span {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding-left: 0;
+  margin: 0;
 }
 
 .li-four {
